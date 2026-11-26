@@ -1,15 +1,9 @@
-customers= {}
+customers = {}
 
-accounts= {}
+accounts = {}
 
-deposits= []
+deposits = []
 
-withdrawals= []
+withdrawals = []
 
-transfers= []
-
-
-
-
-
-
+transfers = []

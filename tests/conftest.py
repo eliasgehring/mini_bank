@@ -3,10 +3,11 @@ import pytest
 from bank_state import (
     customers,
     accounts,
-    deposits, 
+    deposits,
     withdrawals,
     transfers,
 )
+
 
 @pytest.fixture(autouse=True)
 def clean_bank_state():
@@ -15,4 +16,3 @@ def clean_bank_state():
     deposits.clear()
     withdrawals.clear()
     transfers.clear()
-    
